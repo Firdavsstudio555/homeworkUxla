@@ -1,11 +1,11 @@
 export const Sidebar = () => {
     return (
       <>
-        <div className="bg-[#FAFAFA] h-[92vh] font-[450] w-full max-w-[320px]">
-          <div className="w-full text-center justify-center items-center flex flex-col">
+        <div className="bg-[#FAFAFA] h-auto font-[550] w-full max-w-[320px]">
+          <div className="w-full text-center justify-center items-center flex flex-col ">
             <div className="mt-[20px] mb-[30px]">
               <input
-                className="border-none shadow-[0px_0px_10px_5px_#FBA65140] placeholder:text-[#704A24] placeholder:font-[600] placeholder:text-[20px] py-[10px] px-[30px] rounded-[50px] flex items-center justify-center outline-none"
+                className="border-none shadow-[0px_0px_10px_5px_#FBA65140] placeholder:text-[#704A24] placeholder:font-[600] placeholder:text-[20px] py-[1px] px-[30px] rounded-[50px] flex items-center justify-center outline-none"
                 type="text"
                 placeholder="Search"
               />
